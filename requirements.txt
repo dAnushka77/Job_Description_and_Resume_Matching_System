@@ -1,0 +1,5 @@
+Flask
+flask_bootstrap
+PyPDF2
+docx2txt
+scikit-learn
