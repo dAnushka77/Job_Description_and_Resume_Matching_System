@@ -1,23 +1,58 @@
-# Job_Description_and_Resume_Matching_System
+# Job Description and Resume Matching System
 
-This project aims to build a job description and resume matching system using Python with machine learning techniques. The system helps streamline the recruitment process by automatically matching job descriptions with submitted resumes, providing recruiters with a more efficient way to identify suitable candidates.
+This project is designed to streamline the recruitment process by automatically matching job descriptions with uploaded resumes using machine learning techniques. The system leverages text similarity algorithms to identify the most suitable candidates efficiently, presenting recruiters with the top matches based on similarity scores.
 
-# Features
-Job Description Input: Recruiters can input job descriptions into the system.
+---
 
-Resume Upload: Candidates can upload their resumes for matching against job descriptions.
+## 📂 Features
 
-Matching Algorithm: The system uses Tf-Idf Vectorizing algorithm to match job descriptions with resumes based on similarity scores.
+- **Job Description Input**: Recruiters can input detailed job descriptions into the system.
+- **Resume Upload**: Candidates can upload their resumes in various formats (PDF, DOCX, TXT).
+- **Matching Algorithm**: The system uses the Tf-Idf Vectorizer algorithm to compute similarity scores between job descriptions and resumes.
+- **Result Display**: Displays the top 3 resumes with their respective similarity scores to assist recruiters in decision-making.
 
-Result: Top 3 resumes are presented to recruiters with their respective similarity scores.
+---
 
-# Technologies Used
-Python: Backend development using Python programming language.
+## 🛠️ Technologies Used
 
-Flask: Web framework for building the backend server and handling HTTP requests.
+- **Python**: Backend development and text processing.
+- **Flask**: Web framework for building the server and handling HTTP requests.
+- **Bootstrap**: Responsive and user-friendly UI design.
+- **Machine Learning Libraries**: Scikit-learn for implementing the Tf-Idf vectorization and cosine similarity.
+- **HTML/CSS**: Markup and styling for the frontend.
+- **PyPDF2, docx2txt**: Libraries for extracting text from uploaded resumes in various formats.
 
-Bootstrap: Frontend design and layout using Bootstrap for responsive and user-friendly UI.
+---
 
-Machine Learning Libraries: Libraries such as scikit-learn for implementing machine learning algorithms for text similarity matching.
+## ⚙️ Project Workflow
 
-HTML/CSS: Frontend markup and styling for web pages.
+1. **Job Description Input**: Recruiters enter a job description in a text area.
+2. **Resume Upload**: Candidates upload resumes in supported formats (PDF, DOCX, TXT).
+3. **Text Extraction**: The system extracts text from the uploaded resumes using PyPDF2, docx2txt, or text file parsing.
+4. **Vectorization**: Job descriptions and resumes are vectorized using Tf-Idf.
+5. **Similarity Calculation**: Cosine similarity scores are computed between the job description and resumes.
+6. **Top Matches**: The system identifies the top 3 resumes with the highest similarity scores and displays them to the recruiter.
+
+---
+
+## 📊 Insights and Results
+
+- **Efficiency**: Saves recruiters significant time by automating the resume screening process.
+- **Accuracy**: Identifies resumes most relevant to the provided job description.
+- **Flexibility**: Supports multiple resume formats for wider usability.
+
+---
+
+## 🖥️ How to Run the Application
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Job_Description_and_Resume_Matching_System.git
+
+2. Install the required libraries:
+```bash
+pip install -r requirements.txt
+
+3. Run the Flask application:
+```bash
+python app.py
