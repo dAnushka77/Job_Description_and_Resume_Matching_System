@@ -50,9 +50,9 @@ This project is designed to streamline the recruitment process by automatically 
    git clone https://github.com/yourusername/Job_Description_and_Resume_Matching_System.git
 
 2. Install the required libraries:
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Run the Flask application:
-```bash
-python app.py
+   ```bash
+   python app.py
