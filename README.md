@@ -56,3 +56,10 @@ This project is designed to streamline the recruitment process by automatically 
 3. Run the Flask application:
    ```bash
    python app.py
+
+## Output
+
+![image](https://github.com/user-attachments/assets/fbedc2ce-d8e0-4617-8e29-18f0264e98c6)
+
+![image](https://github.com/user-attachments/assets/aa0a153a-ed2d-4131-88a8-f7c10d02ccad)
+
